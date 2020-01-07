@@ -10,3 +10,6 @@ While n < 11:
 print(sum)
 
 a = 0
+
+
+
