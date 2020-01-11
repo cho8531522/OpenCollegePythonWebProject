@@ -22,7 +22,7 @@ while 0 <= len(user_numbers) < 5:
         print(user_numbers, '이외의 숫자를 입력하십시오. ')
         continue
     user_numbers.append(a)
-print("당신이 고른 숫자는 ", user_numbers, "입니다.∖n")
+print("당신이 고른 숫자는 ", user_numbers, "입니다.\n")
 
 #당첨번호 고르기
 print('추첨을 시작합니다. ')
@@ -33,7 +33,7 @@ while 0 <= len(lucky_numbers) < 5:
         lucky_numbers.append(b)
     else:    #추첨한 숫자의 중복을 피한다.
         continue
-print(lucky_numbers, "∖n")
+print(lucky_numbers, "\n")
 
 #추첨 엔드리용 버호와 당첨 번호를 비교한다.
 userset = set(user_numbers)
@@ -41,5 +41,3 @@ luckyset = set(lucky_numbers)
 winset = userset.intersection(luckyset)
 print('당첨된 숫자는', winset)
 print('당첨된 개수는', len(winset), '개입니다. ')
-
-
