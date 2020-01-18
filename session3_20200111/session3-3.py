@@ -1,7 +1,7 @@
-import car
+import car as wow
 import math
 
-car.forward()
-car.reverse()
+wow.forward()
+wow.reverse()
 
 print(math.factorial(100))
