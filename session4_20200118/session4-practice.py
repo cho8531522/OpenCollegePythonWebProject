@@ -41,5 +41,3 @@ class Electriccar(Car):
 tessla = Electriccar('테슬라', '어띠구', 'red')
 tessla.전진()
 tessla.후진()
-
-
